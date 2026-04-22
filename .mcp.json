@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "quadratic": {
+            "type": "http",
+            "url": "https://ed2b-81-98-52-215.ngrok-free.app/mcp",
+            "tools": [
+                "*"
+            ],
+            "oidc": {
+                "audience": "api://quadratic-mcp"
+            }
+        }
+    }
+}

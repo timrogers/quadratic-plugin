@@ -1,0 +1,14 @@
+{
+    "name": "quadratic-plugin",
+    "description": "A sample plugin implementng agentic capabilities for GitHub",
+    "version": "1.0.0",
+    "author": {
+        "name": "Tim Rogers",
+        "email": "me@timrogers.co.uk"
+    },
+    "license": "MIT",
+    "agents": "agents/",
+    "skills": "skills/",
+    "hooks": "hooks.json",
+    "mcpServers": ".mcp.json"
+}
