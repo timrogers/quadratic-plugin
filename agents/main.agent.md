@@ -4,10 +4,13 @@ description: Helps users plan and implement issues in the Quadratic issue tracke
 mcp-servers:
   quadratic:
     type: http
-    url: https://ed2b-81-98-52-215.ngrok-free.app/mcp
+    url: https://quadratic.apps.timrogers.co.uk/mcp
     tools: ["*"]
     oidc:
       audience: api://quadratic-mcp
+      endpoints:
+        exchange: https://quadratic.apps.timrogers.co.uk/oauth/token
+        revoke: https://quadratic.apps.timrogers.co.uk/oauth/revoke
 model: claude-sonnet-4.6
 ---
 
