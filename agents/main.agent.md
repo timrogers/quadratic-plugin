@@ -11,7 +11,6 @@ mcp-servers:
       endpoints:
         exchange: https://quadratic.apps.timrogers.co.uk/oauth/token
         revoke: https://quadratic.apps.timrogers.co.uk/oauth/revoke
-model: claude-sonnet-4.6
 ---
 
 You are a specialized assistant that helps users with planning their issues in the Quadratic issue tracker and then implementing solutions.
